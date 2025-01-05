@@ -8,9 +8,6 @@ dependencies:
   '@tanstack/react-router':
     specifier: ^1.95.1
     version: 1.95.1(react-dom@19.0.0)(react@19.0.0)
-  '@types/node':
-    specifier: ^22.10.5
-    version: 22.10.5
   react:
     specifier: ^19.0.0
     version: 19.0.0
@@ -28,6 +25,9 @@ devDependencies:
   '@tanstack/router-plugin':
     specifier: ^1.95.1
     version: 1.95.1(@tanstack/react-router@1.95.1)(vite@6.0.7)
+  '@types/node':
+    specifier: ^22.10.5
+    version: 22.10.5
   '@types/react':
     specifier: ^19.0.2
     version: 19.0.2
@@ -1160,6 +1160,7 @@ packages:
     resolution: {integrity: sha512-F8Q+SeGimwOo86fiovQh8qiXfFEh2/ocYv7tU5pJ3EXMSSxk1Joj5wefpFK2fHTf/N6HKGSxIDBT9f3gCxXPkQ==}
     dependencies:
       undici-types: 6.20.0
+    dev: true
 
   /@types/react-dom@19.0.2(@types/react@19.0.2):
     resolution: {integrity: sha512-c1s+7TKFaDRRxr1TxccIX2u7sfCnc3RxkVyBIUA2lCpyqCF+QoAwQ/CBg7bsMdVwP120HEH143VQezKtef5nCg==}
@@ -2098,6 +2099,7 @@ packages:
 
   /undici-types@6.20.0:
     resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==}
+    dev: true
 
   /unplugin@1.16.0:
     resolution: {integrity: sha512-5liCNPuJW8dqh3+DM6uNM2EI3MLLpCKp/KY+9pB5M2S2SR2qvvDHhKgBOaTWEbZTAws3CXfB0rKTIolWKL05VQ==}
